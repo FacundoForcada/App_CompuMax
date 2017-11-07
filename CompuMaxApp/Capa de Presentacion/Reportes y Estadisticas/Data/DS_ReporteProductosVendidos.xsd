@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_ReporteProductosVendidos" targetNamespace="http://tempuri.org/DS_ReporteProductosVendidos.xsd" xmlns:mstns="http://tempuri.org/DS_ReporteProductosVendidos.xsd" xmlns="http://tempuri.org/DS_ReporteProductosVendidos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_ReporteProductosVendidos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_ReporteProductosVendidos" msprop:Generator_UserDSName="DS_ReporteProductosVendidos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteProductosVendidos" msprop:Generator_TableClassName="ReporteProductosVendidosDataTable" msprop:Generator_TableVarName="tableReporteProductosVendidos" msprop:Generator_RowChangedName="ReporteProductosVendidosRowChanged" msprop:Generator_TablePropName="ReporteProductosVendidos" msprop:Generator_RowDeletingName="ReporteProductosVendidosRowDeleting" msprop:Generator_RowChangingName="ReporteProductosVendidosRowChanging" msprop:Generator_RowEvHandlerName="ReporteProductosVendidosRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteProductosVendidosRowDeleted" msprop:Generator_RowClassName="ReporteProductosVendidosRow" msprop:Generator_UserTableName="ReporteProductosVendidos" msprop:Generator_RowEvArgName="ReporteProductosVendidosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prod_codigo" msprop:Generator_ColumnVarNameInTable="columnprod_codigo" msprop:Generator_ColumnPropNameInRow="prod_codigo" msprop:Generator_ColumnPropNameInTable="prod_codigoColumn" msprop:Generator_UserColumnName="prod_codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="prod_denom" msprop:Generator_ColumnVarNameInTable="columnprod_denom" msprop:Generator_ColumnPropNameInRow="prod_denom" msprop:Generator_ColumnPropNameInTable="prod_denomColumn" msprop:Generator_UserColumnName="prod_denom" type="xs:string" minOccurs="0" />
+              <xs:element name="tpr_denom" msprop:Generator_ColumnVarNameInTable="columntpr_denom" msprop:Generator_ColumnPropNameInRow="tpr_denom" msprop:Generator_ColumnPropNameInTable="tpr_denomColumn" msprop:Generator_UserColumnName="tpr_denom" type="xs:string" minOccurs="0" />
+              <xs:element name="cat_denom" msprop:Generator_ColumnVarNameInTable="columncat_denom" msprop:Generator_ColumnPropNameInRow="cat_denom" msprop:Generator_ColumnPropNameInTable="cat_denomColumn" msprop:Generator_UserColumnName="cat_denom" type="xs:string" minOccurs="0" />
+              <xs:element name="mar_denom" msprop:Generator_ColumnVarNameInTable="columnmar_denom" msprop:Generator_ColumnPropNameInRow="mar_denom" msprop:Generator_ColumnPropNameInTable="mar_denomColumn" msprop:Generator_UserColumnName="mar_denom" type="xs:string" minOccurs="0" />
+              <xs:element name="ven_fecha" msprop:Generator_ColumnVarNameInTable="columnven_fecha" msprop:Generator_ColumnPropNameInRow="ven_fecha" msprop:Generator_ColumnPropNameInTable="ven_fechaColumn" msprop:Generator_UserColumnName="ven_fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="ved_cantidad" msprop:Generator_ColumnVarNameInTable="columnved_cantidad" msprop:Generator_ColumnPropNameInRow="ved_cantidad" msprop:Generator_ColumnPropNameInTable="ved_cantidadColumn" msprop:Generator_UserColumnName="ved_cantidad" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

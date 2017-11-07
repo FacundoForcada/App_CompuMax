@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_ReporteVentasXPeriodo" targetNamespace="http://tempuri.org/DS_ReporteVentasXPeriodo.xsd" xmlns:mstns="http://tempuri.org/DS_ReporteVentasXPeriodo.xsd" xmlns="http://tempuri.org/DS_ReporteVentasXPeriodo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_ReporteVentasXPeriodo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_ReporteVentasXPeriodo" msprop:Generator_UserDSName="DS_ReporteVentasXPeriodo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteVentasXPeriodo" msprop:Generator_TableClassName="ReporteVentasXPeriodoDataTable" msprop:Generator_TableVarName="tableReporteVentasXPeriodo" msprop:Generator_RowChangedName="ReporteVentasXPeriodoRowChanged" msprop:Generator_TablePropName="ReporteVentasXPeriodo" msprop:Generator_RowDeletingName="ReporteVentasXPeriodoRowDeleting" msprop:Generator_RowChangingName="ReporteVentasXPeriodoRowChanging" msprop:Generator_RowEvHandlerName="ReporteVentasXPeriodoRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteVentasXPeriodoRowDeleted" msprop:Generator_RowClassName="ReporteVentasXPeriodoRow" msprop:Generator_UserTableName="ReporteVentasXPeriodo" msprop:Generator_RowEvArgName="ReporteVentasXPeriodoRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ven_codigo" msprop:Generator_ColumnVarNameInTable="columnven_codigo" msprop:Generator_ColumnPropNameInRow="ven_codigo" msprop:Generator_ColumnPropNameInTable="ven_codigoColumn" msprop:Generator_UserColumnName="ven_codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="ven_fecha" msprop:Generator_ColumnVarNameInTable="columnven_fecha" msprop:Generator_ColumnPropNameInRow="ven_fecha" msprop:Generator_ColumnPropNameInTable="ven_fechaColumn" msprop:Generator_UserColumnName="ven_fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="cli_codigo" msprop:Generator_ColumnVarNameInTable="columncli_codigo" msprop:Generator_ColumnPropNameInRow="cli_codigo" msprop:Generator_ColumnPropNameInTable="cli_codigoColumn" msprop:Generator_UserColumnName="cli_codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="ven_precio" msprop:Generator_ColumnVarNameInTable="columnven_precio" msprop:Generator_ColumnPropNameInRow="ven_precio" msprop:Generator_ColumnPropNameInTable="ven_precioColumn" msprop:Generator_UserColumnName="ven_precio" type="xs:string" minOccurs="0" />
+              <xs:element name="cli_nombre" msprop:Generator_ColumnVarNameInTable="columncli_nombre" msprop:Generator_ColumnPropNameInRow="cli_nombre" msprop:Generator_ColumnPropNameInTable="cli_nombreColumn" msprop:Generator_UserColumnName="cli_nombre" type="xs:string" minOccurs="0" />
+              <xs:element name="cli_apellido" msprop:Generator_ColumnVarNameInTable="columncli_apellido" msprop:Generator_ColumnPropNameInRow="cli_apellido" msprop:Generator_ColumnPropNameInTable="cli_apellidoColumn" msprop:Generator_UserColumnName="cli_apellido" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

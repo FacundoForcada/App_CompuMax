@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_ReporteCombosVendidos" targetNamespace="http://tempuri.org/DS_ReporteCombosVendidos.xsd" xmlns:mstns="http://tempuri.org/DS_ReporteCombosVendidos.xsd" xmlns="http://tempuri.org/DS_ReporteCombosVendidos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_ReporteCombosVendidos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_ReporteCombosVendidos" msprop:Generator_UserDSName="DS_ReporteCombosVendidos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteCombosVendidos" msprop:Generator_TableClassName="ReporteCombosVendidosDataTable" msprop:Generator_TableVarName="tableReporteCombosVendidos" msprop:Generator_TablePropName="ReporteCombosVendidos" msprop:Generator_RowDeletingName="ReporteCombosVendidosRowDeleting" msprop:Generator_RowChangingName="ReporteCombosVendidosRowChanging" msprop:Generator_RowEvHandlerName="ReporteCombosVendidosRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteCombosVendidosRowDeleted" msprop:Generator_UserTableName="ReporteCombosVendidos" msprop:Generator_RowChangedName="ReporteCombosVendidosRowChanged" msprop:Generator_RowEvArgName="ReporteCombosVendidosRowChangeEvent" msprop:Generator_RowClassName="ReporteCombosVendidosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="com_denom" msprop:Generator_ColumnVarNameInTable="columncom_denom" msprop:Generator_ColumnPropNameInRow="com_denom" msprop:Generator_ColumnPropNameInTable="com_denomColumn" msprop:Generator_UserColumnName="com_denom" type="xs:string" minOccurs="0" />
+              <xs:element name="com_precio" msprop:Generator_ColumnVarNameInTable="columncom_precio" msprop:Generator_ColumnPropNameInRow="com_precio" msprop:Generator_ColumnPropNameInTable="com_precioColumn" msprop:Generator_UserColumnName="com_precio" type="xs:string" minOccurs="0" />
+              <xs:element name="ven_fecha" msprop:Generator_ColumnVarNameInTable="columnven_fecha" msprop:Generator_ColumnPropNameInRow="ven_fecha" msprop:Generator_ColumnPropNameInTable="ven_fechaColumn" msprop:Generator_UserColumnName="ven_fecha" type="xs:string" minOccurs="0" />
+              <xs:element name="cant_ven" msprop:Generator_ColumnVarNameInTable="columncant_ven" msprop:Generator_ColumnPropNameInRow="cant_ven" msprop:Generator_ColumnPropNameInTable="cant_venColumn" msprop:Generator_UserColumnName="cant_ven" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

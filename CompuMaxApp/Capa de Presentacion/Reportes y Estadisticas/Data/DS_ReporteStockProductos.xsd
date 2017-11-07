@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_ReporteStockProductos" targetNamespace="http://tempuri.org/DS_ReporteStockProductos.xsd" xmlns:mstns="http://tempuri.org/DS_ReporteStockProductos.xsd" xmlns="http://tempuri.org/DS_ReporteStockProductos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="DB_CompuMaxConnectionString_FacundoPC" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DB_CompuMaxConnectionString_FacundoPC (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CompuMaxApp.My.MySettings.GlobalReference.Default.DB_CompuMaxConnectionString_FacundoPC" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_ReporteStockProductos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_ReporteStockProductos" msprop:Generator_UserDSName="DS_ReporteStockProductos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReporteStockProductos" msprop:Generator_TableClassName="ReporteStockProductosDataTable" msprop:Generator_TableVarName="tableReporteStockProductos" msprop:Generator_RowChangedName="ReporteStockProductosRowChanged" msprop:Generator_TablePropName="ReporteStockProductos" msprop:Generator_RowDeletingName="ReporteStockProductosRowDeleting" msprop:Generator_RowChangingName="ReporteStockProductosRowChanging" msprop:Generator_RowEvHandlerName="ReporteStockProductosRowChangeEventHandler" msprop:Generator_RowDeletedName="ReporteStockProductosRowDeleted" msprop:Generator_RowClassName="ReporteStockProductosRow" msprop:Generator_UserTableName="ReporteStockProductos" msprop:Generator_RowEvArgName="ReporteStockProductosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="prod_codigo" msprop:Generator_ColumnVarNameInTable="columnprod_codigo" msprop:Generator_ColumnPropNameInRow="prod_codigo" msprop:Generator_ColumnPropNameInTable="prod_codigoColumn" msprop:Generator_UserColumnName="prod_codigo" type="xs:int" />
+              <xs:element name="prod_denom" msprop:Generator_ColumnVarNameInTable="columnprod_denom" msprop:Generator_ColumnPropNameInRow="prod_denom" msprop:Generator_ColumnPropNameInTable="prod_denomColumn" msprop:Generator_UserColumnName="prod_denom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="prod_numserie" msprop:Generator_ColumnVarNameInTable="columnprod_numserie" msprop:Generator_ColumnPropNameInRow="prod_numserie" msprop:Generator_ColumnPropNameInTable="prod_numserieColumn" msprop:Generator_UserColumnName="prod_numserie" type="xs:int" />
+              <xs:element name="tpr_denom" msprop:Generator_ColumnVarNameInTable="columntpr_denom" msprop:Generator_ColumnPropNameInRow="tpr_denom" msprop:Generator_ColumnPropNameInTable="tpr_denomColumn" msprop:Generator_UserColumnName="tpr_denom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cat_denom" msprop:Generator_ColumnVarNameInTable="columncat_denom" msprop:Generator_ColumnPropNameInRow="cat_denom" msprop:Generator_ColumnPropNameInTable="cat_denomColumn" msprop:Generator_UserColumnName="cat_denom">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mar_denom" msprop:Generator_ColumnVarNameInTable="columnmar_denom" msprop:Generator_ColumnPropNameInRow="mar_denom" msprop:Generator_ColumnPropNameInTable="mar_denomColumn" msprop:Generator_UserColumnName="mar_denom" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stp_cantactual" msprop:Generator_ColumnVarNameInTable="columnstp_cantactual" msprop:Generator_ColumnPropNameInRow="stp_cantactual" msprop:Generator_ColumnPropNameInTable="stp_cantactualColumn" msprop:Generator_UserColumnName="stp_cantactual" type="xs:int" minOccurs="0" />
+              <xs:element name="stp_cantminima" msprop:Generator_ColumnVarNameInTable="columnstp_cantminima" msprop:Generator_ColumnPropNameInRow="stp_cantminima" msprop:Generator_ColumnPropNameInTable="stp_cantminimaColumn" msprop:Generator_UserColumnName="stp_cantminima" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
