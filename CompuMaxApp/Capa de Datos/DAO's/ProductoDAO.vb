@@ -65,6 +65,9 @@
         If categoria <> String.Empty Then
             sql = sql + "AND c.cat_denom = '" + categoria.ToString + "' "
         End If
+        If prom_codigo <> String.Empty Then
+            sql = sql + "AND pr.prom_codigo = '" + prom_codigo + "' "
+        End If
         sql = sql + "AND p.prod_denom = '" + prod_denom.ToString + "' "
         oTabla = BDHelper.getDBHelper.ConsultaSQL(sql)
         Return oTabla
